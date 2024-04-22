@@ -1,0 +1,166 @@
+/* Add styles for the main container */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKay6qIjFLuNkFn-SqUJdqBPgXu9GOGdvXqw&s');
+  margin: 0;
+  padding: 0;
+  background-size: cover; /* This ensures the background image covers the entire container */
+  background-attachment: fixed; 
+  color: #f7fffb;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #f7fffb;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"]{
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fffafa; /* Cream shade */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+input[type="text"]::placeholder {
+  color: #070404; /* Light grey */
+}
+input[type="text"] {
+  width: calc(100% - 130px); 
+  margin-right: 10px;
+}
+button[type="submit"] {
+  background-color: #003f1a; /* Blue color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px; /* Adjust padding for better appearance */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+button[type="submit"]:hover {
+  background-color: #598555; /* Darker shade of blue on hover */
+  color: #fff; /* Maintain white text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle shadow on hover */
+}
+button {
+  background-color: #003f1a; /* Blue color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px; /* Adjust padding for better appearance */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Add transition effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+
+/* 
+button {
+  background-color: #003f1a;
+
+  color: #fff;
+  border: none;
+  cursor: pointer;
+} */
+
+button:hover {
+  background-color: #598555;
+}
+
+/* Styles for book cards */
+.book-card {
+  /* background-color: #fff; */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  margin-bottom: 15px;
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxLoaxNnfV_lz651gzN5hJBPKohPAzfNG-xw&s');
+   background-size: cover; /* This ensures the background image covers the entire container */
+   /* background-attachment: fixed;  */
+
+}
+
+.book-card h3 {
+  margin-top: 0;
+  color: #000000;
+}
+
+.book-card p {
+  margin: 5px 0;
+}
+
+.book-card a {
+  color: #022f00;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #012e00; /* Blue color */
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+}
+
+.book-card a:hover {
+  text-decoration: underline;
+}
+
+/* Book-themed design */
+.book-card::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  
+  z-index: -1;
+  border-radius: 5px;
+}
+
+/* Button for text-to-speech */
+.speech-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.speech-button:hover {
+  background-color: #45a049;
+}
+.book-link a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000; /* Blue color */
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.book-link a:hover {
+  background-color: #234b2d; /* Darker blue on hover */
+}
