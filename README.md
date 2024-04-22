@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+It's a book selection app where we can earch different genres or we can search by name of book to see the summary of book and by clicking on link we can read the whole book
 ## Getting Started
 
 First, run the development server:
